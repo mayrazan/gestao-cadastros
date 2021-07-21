@@ -55,7 +55,7 @@ export const Clients = () => {
             name="cep"
             id="cep"
             required
-            placeholder="Digite o cep"
+            placeholder="Digite o cep. Somente números"
             value={cep}
             onChange={(e) => setCep(e.target.value)}
             onKeyDown={(e) => {
